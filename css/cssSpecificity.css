@@ -1,0 +1,20 @@
+/* h1 < class < id < style attribute in line < !important*/
+
+/* if there is number of class name in one tage than always specificity will be more in after tag or last tag*/
+
+
+h1{
+    color: blue;
+}
+
+.header{
+    color: red;
+}
+
+.heading{
+    color:beige;
+}
+
+#head{
+    color: aqua;
+}

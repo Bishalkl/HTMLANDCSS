@@ -1,0 +1,11 @@
+h1, h2{
+    /*we can use display property as inline to convert the block line to inline.*/
+    border: 2px solid red;
+    display: inline;
+}
+
+a{  
+    /* we can use display property as block to convert the inline to block */
+    border: 2px solid red;
+    display: block;
+}

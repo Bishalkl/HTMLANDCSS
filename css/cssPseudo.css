@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+a{
+    display: inline-block;
+    border: none;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(177, 145, 42);
+    
+    box-sizing: border-box;
+}
+
+/* lvha */
+
+a:hover{
+    background-color: rgb(177, 145, 42);
+    color: white;
+}
+
+a:active{
+    background-color: rgb(177, 145, 42);
+    color: black;
+}
+

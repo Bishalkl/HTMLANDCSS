@@ -1,0 +1,29 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{ 
+    border: 10px none blue;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(35, 35, 75);
+    margin: 20px;
+    padding: 4px;
+    color: white;
+    font-size: large;
+}
+     /* Without the border-box, it will add more pixel if we channge the padding or width of box1 */
+.box1,.box2{
+    border: 10px none;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    background: blueviolet;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+}

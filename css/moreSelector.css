@@ -1,0 +1,32 @@
+/* using * for universal selector */
+*{
+    color: blueviolet;
+}
+header{
+    background-color: #f0ebeb;
+}
+
+.my-articles{
+    background-color: #f0ebeb;
+}
+
+/* space for to under the header for p. */
+header p{
+    color: red;
+}
+/* same as header p  */
+li a{
+    color: red;
+}
+/* . for to target class articles in section tag and using space for target h2 */
+section.my-articles h2{
+    color: yellow;
+}
+/* direct child  using > for it */
+section.my-articles > h2{
+    color: green;
+}
+/* + use for after the articles of h2  */
+section.my-articles h2 + p{
+    color: red;
+ }

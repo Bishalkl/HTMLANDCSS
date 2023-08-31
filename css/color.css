@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+   /* rgb method */
+h1{
+    color:rgb(255, 0 , 0);
+    background-color:white;
+}
+    /* # method */
+
+h2{
+    color: #1789b3;
+    background-color: aquamarine;
+}
+

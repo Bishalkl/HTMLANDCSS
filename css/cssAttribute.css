@@ -1,0 +1,18 @@
+/* for the attribute text color change */
+input[type = "text"]{
+    color: red;
+    background-color:white;
+}
+/* for the background change of password */
+input[type = "password"]{
+    color: red;
+}
+
+/* for all the https  */
+/* a[href ^="https"]{
+ color: red; */
+
+/* for .com */
+a[href $= ".co"]{
+    color:red;
+}

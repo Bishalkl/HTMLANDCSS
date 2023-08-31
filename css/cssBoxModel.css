@@ -1,0 +1,34 @@
+h1{
+    /* Border  */
+    border: 4px dashed red;
+
+    /* This is padding */
+    /* padding-left: 40px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 30px; */
+
+    /* to make equal padding  */
+    /* top ,right, bottom left, always clock wise*/
+    padding: 20px 30px 40px 50px;
+    
+    /* Margin */
+    /* margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 20 px; */
+    margin: 100px;
+    margin: 10px 20px 30px 40px;
+
+    /* width */
+    width: 500px;
+    /* auto for adjust itself margin */
+    margin: 20px auto;
+
+    /* backgroud start with border */
+    background-color: aqua;
+
+    /*  */
+
+
+}
