@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth child and nth of type pseudo class</title>
+    <style>
+        .first-container ul li:nth-of-type(2n){
+            background-color: lightgreen;
+        }
+        .second-container ol li:nth-of-type(2n+1){
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <div class="first-container">
+        <h1>First link</h1>
+        <ul>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+        </ul>
+    </div>
+    <div class="second-container">
+        <h1>Second link</h1>
+        <ol>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+            <li>Items</li>
+        </ol>
+    </div>
+</body>
+</html>
