@@ -1,0 +1,20 @@
+p{
+    /* Absolute-Unit*/
+    
+    /* Pixel*/
+    font-size: 20px;
+
+    /*  1 inch == 96px*/
+    font-size : 1in;
+
+    /* Point */
+    /* 1px == 0.75 */
+    /* 16px == 0.75 * 16 */
+    font-size: 12pt;
+    border: none;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+
+}

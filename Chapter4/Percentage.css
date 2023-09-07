@@ -1,0 +1,18 @@
+.container{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+h1{
+    font-size: 100%;
+    text-align: center;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10%;
+}
