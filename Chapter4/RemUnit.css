@@ -1,0 +1,29 @@
+
+:root{
+    /* font-size: 10px; */
+
+    /* If we use percentage then it helps to make more responsive*/
+
+    font-size: 62.5%;
+    
+    /* 16px ----> 100%*/
+    /* 10 ----> 100 /16 * 10 */
+    }
+
+.text-container{
+    font-size: 2rem;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    background-color: aquamarine;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.text-container2{
+    font-size: 3rem;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    background-color: aquamarine;
+    text-align: center;
+
+}
