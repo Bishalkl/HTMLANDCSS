@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto+Mono:wght@1000&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+body{
+    background: #384239;
+}
+.container{
+    width: 1000px;
+    height: 80px;
+    margin: 400px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.a, .b , .c , .d , .e, .f , .g {
+    width: 100px;
+    height: 100px;
+    background-color: #c9b00a;
+    color:#ffffff;
+    margin: 8px;
+    border-radius: 10px;
+    padding:40px 40px 70px 40px;
+}
+
+.a:hover , 
+.b:hover , 
+.c:hover, 
+.d:hover , 
+.e:hover , 
+.f:hover ,
+.g:hover{
+    background: #ffffff;
+    color:#c9b00a;
+    border-radius: 2px;
+}
+
