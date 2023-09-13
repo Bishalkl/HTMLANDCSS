@@ -7,8 +7,8 @@ body,html{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: aqua;
 }
-
 .container2{
     background-color: brown;
     width: 50%;
@@ -16,14 +16,51 @@ body,html{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 .child{
     background-color: blue;
     width: 50%;
     height: 50%;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.child1{
+    background-color: rgb(200, 255, 0);
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child2{
+    background-color: rgb(255, 0, 0);
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    background-color: rgb(0, 255, 42);
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child4{
+    background-color: rgb(255, 0, 212);
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
 
 /* vh and vw doesn't rely on parent 
  */
