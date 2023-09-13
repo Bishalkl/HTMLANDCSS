@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.container p{
+    font-size: 19px;
+}
+
+p{
+    background: blue;
+    width: 50%;
+    height: 50%;
+    font-size:2em;
+}
+
+/* em is not good for resposive website */
+/* rem is good because it resize according to user  */
+/* both are relative units */
