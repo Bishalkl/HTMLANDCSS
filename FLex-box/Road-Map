@@ -1,0 +1,73 @@
+Flex Container Properties
+display:
+
+display: flex; - Defines a flex container.
+display: inline-flex; - Defines an inline-level flex container.
+flex-direction:
+
+flex-direction: row; - Items are placed in a row (default).
+flex-direction: row-reverse; - Items are placed in a row in reverse order.
+flex-direction: column; - Items are placed in a column.
+flex-direction: column-reverse; - Items are placed in a column in reverse order.
+
+flex-wrap:
+
+flex-wrap: nowrap; - Items are not wrapped (default).
+flex-wrap: wrap; - Items wrap onto multiple lines as needed.
+flex-wrap: wrap-reverse; - Items wrap onto multiple lines in reverse order.
+
+justify-content:
+
+justify-content: flex-start; - Items are packed at the start of the container (default).
+justify-content: flex-end; - Items are packed at the end of the container.
+justify-content: center; - Items are centered horizontally.
+justify-content: space-between; - Items are evenly distributed with space between.
+justify-content: space-around; - Items are evenly distributed with space around.
+
+align-items:
+
+align-items: stretch; - Items are stretched to fill the container (default).
+align-items: flex-start; - Items are aligned at the start of the container.
+align-items: flex-end; - Items are aligned at the end of the container.
+align-items: center; - Items are centered vertically.
+align-items: baseline; - Items are aligned to their baselines.
+
+align-content:
+
+align-content: flex-start; - Lines are packed at the start of the container (default).
+align-content: flex-end; - Lines are packed at the end of the container.
+align-content: center; - Lines are centered vertically.
+align-content: space-between; - Lines are evenly distributed with space between.
+align-content: space-around; - Lines are evenly distributed with space around.
+align-content: stretch; - Lines are stretched to fill the container.
+
+Flex Item Properties
+order:
+
+order: 0; - Default order for items (can be negative or positive).
+flex-grow:
+
+flex-grow: 1; - Items can grow proportionally (default is 0, which means no growth).
+flex-shrink:
+
+flex-shrink: 1; - Items can shrink proportionally (default is 1).
+flex-basis:
+
+flex-basis: auto; - Default size of items.
+flex-basis: 100px; - Fixed size for items.
+flex (shorthand for flex-grow, flex-shrink, and flex-basis):
+
+flex: 1; - Equivalent to flex-grow: 1; flex-shrink: 1; flex-basis: 0%;.
+align-self:
+
+align-self: auto; - Inherits align-items value from the container.
+align-self: flex-start; - Overrides alignment for a specific item.
+align-self: flex-end;
+align-self: center;
+align-self: baseline;
+align-self: stretch;
+Remember that Flexbox is designed to simplify layout tasks, especially for one-dimensional layouts. You can use these properties to create flexible and responsive designs without relying heavily on floats or positioning.
+
+
+
+
