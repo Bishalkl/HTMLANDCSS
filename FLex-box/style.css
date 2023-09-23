@@ -66,24 +66,27 @@
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    padding: 20px;
 }
 
 .box1{
     background-color: blueviolet;
     /* flex-shrink: 2; */
-    flex-grow: 3;
+    /* flex-grow: 3; */
+    order: 0;
 }
 
 .box2{
     background-color: aqua;
     /* flex-shrink: 1; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    order: 1;
+    /* align-self: center; */
 }
 
 .box3{
     background-color: green;
     /* flex-shrink:2; */
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    /* flex-basis: 100px; */
 }
