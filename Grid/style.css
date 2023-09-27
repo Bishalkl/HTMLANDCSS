@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body , html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Dela Gothic One', cursive;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    background: #17121c;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.container{
+    width: 50vw;
+    height: 50vh;
+    /* display is to active the grid in container */
+    display: grid;
+    /* it is use for create columns */
+    grid-template-columns:repeat(2, 1fr);
+
+    /* it is use for create rows */
+    grid-template-rows: repeat(3, 1fr);
+
+    /* it use to create a equal gap  */
+    grid-gap: 10px;
+}
+
+.title{
+    text-align: center;
+    margin: 10px;
+    background: #9e10eb;
+    border-radius: 20px;
+    color: azure;
+    padding: 20px;
+}
+
+.items{
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: large;
+    background-color: #9e10eb;
+}
