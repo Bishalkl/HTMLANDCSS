@@ -33,7 +33,16 @@
     grid-template-rows: repeat(3, 1fr);
 
     /* it use to create a equal gap  */
-    grid-gap: 10px;
+    /* grid column */
+    grid-column-gap: 10px;
+
+    /*  grid row*/
+    grid-row-gap: 20px;
+
+    /* both in short hand */
+    /* firt row */
+    /* second column */
+    grid-gap: 10px 10px;
 }
 
 .title{
