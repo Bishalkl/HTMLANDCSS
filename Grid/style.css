@@ -65,3 +65,33 @@
     font-size: large;
     background-color: #9e10eb;
 }
+
+.items1{
+    /* we can palce items in any area by using this property */
+    /* grid-row-start: 3;
+    grid-row-end: 4; */
+    /*  this is shorthand of this row property*/
+    grid-row: 3 / 4;
+
+    /* grid-column-start: 2;
+    grid-column-end: 3; */
+    /* this is shorthand of this column property */
+    grid-column: 2 / 3;
+
+    /* one line shorthand  */
+    /* first startin of row and starting of column and ending of row and ending of column */
+
+    grid-area: 3 / 2 / 4 / 3
+}
+
+.items2{
+    /* shorthand using 2 line */
+    grid-row: 2 / 3;
+    grid-column: 2 / 3; 
+ 
+}
+
+.items3{
+    /* using one line to postion the items */
+    grid-area: 3 / 1 / 4 / 2;
+}
