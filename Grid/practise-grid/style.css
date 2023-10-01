@@ -41,6 +41,12 @@ body, html{
     grid-template-rows: repeat(3, [row-start] 1fr [row-end]);
     grid-template-columns: repeat(4,[col-start] 1fr [col-end]);
     grid-gap: 10px;  
+    grid-template-areas: "first-items second-items second-items third-items"
+                         "first-items fourth-items fifth-items sixth-items"
+                         "first-items seventh-items eigth-items sixth-items";
+
+
+                        
 }
 
 
@@ -67,18 +73,41 @@ body, html{
 
 .items{
     border-radius: 10px;
+
 }
 
 .items1{
-    grid-row: row-start 1 /  row-end 3;
+   grid-area: first-items;
 }
 
 .items2{
-    grid-column: col-start 2 / col-end 3;
+    grid-area: second-items;
+}
+
+.items3{
+    grid-area: third-items;
+}
+
+.items4{
+    grid-area: fourth-items;
+}
+
+.items5{
+    grid-area: fifth-items;
 }
 
 .items6{
-    grid-area: row-start 2 / col-start 4 / row-end 3 / col-end 4;
+    grid-area: sixth-items;
 }
+
+.items7{
+   grid-area: seventh-items;
+}
+
+.items8{
+    grid-area: eigth-items;
+}
+
+
 
 
