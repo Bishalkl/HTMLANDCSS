@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.items{
+    background-color: blueviolet;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.6em;
+
+    /* first four items which i gave a row and column  called explicit items annd other remain item are implicit */
+
+    /* to give a css style to those remain items and also those items which gonna be added in future*/
+
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
