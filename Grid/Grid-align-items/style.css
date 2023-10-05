@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.6rem;
+    border-radius: 0.6rem;
+
+    /* /*Topic for itmes alignment*/
+
+
+    /*Horizontal and it is for hole container grid items*/
+    /* align-items: center; */
+  
+
+    /*Vertical and it is for whole container grid items*/
+    /* justify-items: center; */
+
+
+    /* Short-hand for both align and justify items*/
+    /* place-items: center center; */
+}
+
+.items{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
+}
+
+.first{
+    /* self for individual and it is similar to place items but in individuals */
+    place-self: center start;
+}
+
+.second{
+    place-self: center center;
+}
+
+.third{
+    place-self: center end;
+}
