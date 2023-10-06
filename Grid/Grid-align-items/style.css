@@ -49,7 +49,9 @@ body,html{
 }
 
 .first{
+
     /* self for individual and it is similar to place items but in individuals */
+    
     place-self: center start;
 }
 
