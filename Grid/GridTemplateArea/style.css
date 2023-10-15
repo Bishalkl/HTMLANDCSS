@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+body, html{
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    margin: 0.2em 0em 0.2em 0em; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5% 45% 35% 20%;
+    gap: 0.5em;
+
+    grid-template-areas: 
+    'header header header header'
+    'sidebar main main main'
+    'sidebar content-one content-two content-three'
+    'sidebar footer footer footer';
+}
+
+
+.items{
+    padding-top: 0.4rem;
+    background-color: #A8FFEB;
+    text-align: center;
+    border-radius: 0.25em;
+}
+
+/*----------------- using grid area for naming the grid items*/
+#header{
+    grid-area: header;
+}
+
+#sidebar{
+    grid-area:sidebar;
+}
+
+#main{
+    grid-area: main;
+}
+
+#content-one{
+    grid-area:content-one;
+}
+
+#content-two{
+    grid-area: content-two;
+}
+
+#content-three{
+    grid-area: content-three;
+}
+
+#footer{
+    grid-area: footer;
+}
+
+
+
+/* ---------------------- utility classes----------------------*/
+
+.color-navbar{
+    background-color: #A8FFEB;
+}
+
+.color-sidebar{
+    background-color: #1CFFFF;
+}
+
+.color-main{
+    background-color: #84FFFE;
+}
+
+.color-content-one{
+    background-color: #6FFFD1;
+}
+
+.color-content-two{
+    background-color: #65FFDB;
+}
+
+.color-content-three{
+    background-color: #65FFDB;
+}
+
+.color-footer{
+    background-color: #65FFDB;
+}
+
+/* Add this media query for mobile responsiveness */
+@media (max-width: 768px) {
+    body, html {
+        grid-template-rows: 10% 45% 35% 10%; /* Adjust the row proportions for mobile */
+        grid-template-areas:
+        'header header header header'
+        'main main main main'
+        'content-one content-one content-one content-one'
+        'footer footer footer footer';
+    }
+
+    /* Modify the sidebar styles for mobile */
+    #sidebar {
+        display: none; /* Hide the sidebar on mobile */
+    }
+
+    /* Adjust the main content area width for mobile */
+    #main {
+        grid-area: main;
+    }
+
+    /* Modify the content area styles for mobile */
+    #content-one, #content-two, #content-three {
+        grid-area: content-one; /* Place all content in a single column on mobile */
+    }
+}
